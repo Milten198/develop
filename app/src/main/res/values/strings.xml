@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnimationAndTransmision</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="go_down_button">Go down button!</string>
+</resources>
