@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Threads</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="here_text">Here</string>
+    <string name="button_text">Threads</string>
+</resources>
