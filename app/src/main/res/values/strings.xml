@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ListViewCustomExample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="social">
+        <item>Social 1</item>
+        <item>Social 2</item>
+        <item>Social 3</item>
+        <item>Social 4</item>
+        <item>Social 5</item>
+        <item>Social 6</item>
+        <item>Social 7</item>
+        <item>Social 8</item>
+        <item>Social 9</item>
+        <item>Social 10</item>
+        <item>Social 11</item>
+        <item>Social 12</item>
+        <item>Social 13</item>
+        <item>Social 14</item>
+        <item>Social 15</item>
+        <item>Social 16</item>
+        <item>Social 17</item>
+        <item>Social 18</item>
+        <item>Social 19</item>
+        <item>Social 20</item>
+        <item>Social 21</item>
+        <item>Social 22</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is description of Social 1</item>
+        <item>This is description of Social 2</item>
+        <item>This is description of Social 3</item>
+        <item>This is description of Social 4</item>
+        <item>This is description of Social 5</item>
+        <item>This is description of Social 6</item>
+        <item>This is description of Social 7</item>
+        <item>This is description of Social 8</item>
+        <item>This is description of Social 9</item>
+        <item>This is description of Social 10</item>
+        <item>This is description of Social 11</item>
+        <item>This is description of Social 12</item>
+        <item>This is description of Social 13</item>
+        <item>This is description of Social 14</item>
+        <item>This is description of Social 15</item>
+        <item>This is description of Social 16</item>
+        <item>This is description of Social 17</item>
+        <item>This is description of Social 18</item>
+        <item>This is description of Social 19</item>
+        <item>This is description of Social 20</item>
+        <item>This is description of Social 21</item>
+        <item>This is description of Social 22</item>
+    </string-array>
+</resources>
