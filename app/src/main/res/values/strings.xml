@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InterProcesDataExchangeExampleApp1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_to_file_text">Save to File</string>
+</resources>
