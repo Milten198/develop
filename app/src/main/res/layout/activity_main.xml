@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#336699"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:onClick="nextActivity"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/intercache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Internal Cache"
+        android:onClick="internalCache"/>
+
+    <Button
+        android:id="@+id/extercache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intercache"
+        android:layout_centerHorizontal="true"
+        android:text="External Cache"
+        android:onClick="externaCache"/>
+
+    <Button
+        android:id="@+id/exterpublic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/extercache"
+        android:layout_centerHorizontal="true"
+        android:text="External Public"
+        android:onClick="externalPublic"/>
+
+    <Button
+        android:id="@+id/exterprivate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exterpublic"
+        android:text="External Private"
+        android:layout_centerHorizontal="true"
+        android:onClick="externalPrivate"/>
+</RelativeLayout>
